@@ -10,8 +10,6 @@ define(['angular', 'app'], function (angular, app) {
 			.when('/', {templateUrl: 'html/home.html', controller:  'ViewHomeController'})
 			.when('/about', {templateUrl: 'html/about.html'})
 			.when('/contact', {templateUrl: 'html/contact.html'})
-			.when('/inventory/:id',{templateUrl: 'html/inventory.html', controller : "InventoryController"})
-			.when('/login',{templateUrl: 'html/login.html'})
 			.otherwise({redirectTo: '/'});
 
 	}]);

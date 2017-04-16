@@ -28,35 +28,24 @@ define(['angular'], function (angular) {
 	
 	app.controller("AppCtrl", function ($scope, $log, $q, $timeout, $http, $interval,$location,LoginService) {
         console.log("AppCtrl working");
-        $scope.tabs = [
+        /*$scope.tabs = [
             { title:'Tab 1', content:'Dynamic content 1' },
             { title:'Tab 2', content:'Dynamic content 2' },
             { title:'Tab 3', content:'Dynamic content 3' }
-        ];
+        ];*/
         $scope.testimonials = [];
         $scope.loginUserName = null;
         $scope.loginOrlogout = "Login";
         
-        $http.get('/json/testimonials.json')
+        /*$http.get('/json/testimonials.json')
          .then(function mySucces(data) {
              $scope.testimonials = data;
          }, function myError(data, status, headers, config) {
              console.log(status);
              console.log(data);
-         });
-         
-        $scope.inventorys = [
-            {id:'1',name: 'lobster', weight: '10kg', price: '$1000', quantity: '1000'},
-            {id:'2',name: 'lobster', weight: '10kg', price: '$1000', quantity: '1000'},
-            {id:'3',name: 'lobster', weight: '10kg', price: '$1000', quantity: '1000'},
-            {id:'4',name: 'lobster', weight: '10kg', price: '$1000', quantity: '1000'}
-        ];
-        
-        $scope.goToDetail = function(inventory){
-            $location.path('/inventory/' + inventory.id);
-        };
-
-         $scope.goToLoginOrLogout = function(){
+         });*/
+    
+         /*$scope.goToLoginOrLogout = function(){
             if($scope.loginUserName == null) {
                 $location.path('/login');    
             } else {
@@ -73,16 +62,7 @@ define(['angular'], function (angular) {
             $scope.loginUserName = LoginService.userName;
             $scope.loginOrlogout = "Logout";
             $location.path('/home');
-        }
-    });
-
-    app.factory('LoginService', function() {
-        var loginUser = {};
-        loginUser.userName = "aaa";
-        loginUser.set = function(name) {
-            loginUser.userName = name;
-        }
-        return loginUser;
+        }*/
     });
 
 	return app;
