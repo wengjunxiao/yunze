@@ -1,0 +1,42 @@
+  <div style="height: 400px">
+    <div uib-carousel active="active" interval="myInterval">
+      <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id" style="height:400px;">
+        <img ng-src="{{slide.image}}" style="width: 100%; margin:auto;">
+        <div class="carousel-caption">
+          <h4>Slide {{slide.id}}</h4>
+          <p>{{slide.text}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <br>
+  <div id="home-view" class="row">
+    <div class="col-md-12">
+      <blockquote>
+      <h1>Main Header</h1>
+      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+      <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+      </blockquote>
+    </div>
+  </div>
+    <div class="inventorys_row">
+        <div class="col-sm-6 col-md-4" ng-repeat="inventory in inventorys">
+            <div class="thumbnail" ng-click="goToDetail(inventory)">
+              <img src="http://placehold.it/242x200" alt="...">
+              <a class="name" href="#" title="{{inventory.name}}">
+                <span title="country" class="h_flag1"></span>{{inventory.name}};
+              </a>
+              <p>{{inventory.weight}}</p>
+              <span class="price">{{inventory.price}}<span style="font-size:14px;">SP/500克
+              </span></span>
+              <span class="quantity">
+                {{inventory.quantity}}          
+                <span style="margin-left:10px;">
+                  Sold <b style="color:#1169ab;"> </b> Box
+                </span>
+              </span>
+            </div>
+        </div>
+    </div>
+  
