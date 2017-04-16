@@ -52,7 +52,11 @@
 }
 
 h2 {
-  border-bottom:4px solid #8a1c21;
   font-family:SourceHanSansCN-Bold;
   color:#333;
+}
+
+.make_border {
+  width: 4px;
+  background:#8a1c21; 
 }
