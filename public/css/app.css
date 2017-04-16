@@ -58,5 +58,7 @@ h2 {
 
 .make_border {
   width: 4px;
+  height: 3px;
+  margin-bottom: 10px;
   background:#8a1c21; 
 }
