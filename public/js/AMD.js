@@ -40,8 +40,8 @@ require(
 		'app',
 		'commonRoutes',
 		'header',
-		'viewHomeController',
-		'inventoryController'
+		'viewHomeController'
+		//'inventoryController'
 	], 
 	function (angular) {
 		var AppRoot = angular.element(document.getElementById('ng-app'));
