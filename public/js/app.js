@@ -26,7 +26,7 @@ define(['angular'], function (angular) {
 		};
 	});
 	
-	app.controller("AppCtrl", function ($scope, $log, $q, $timeout, $http, $interval,$location,LoginService) {
+	app.controller("AppCtrl", function ($scope, $log, $q, $timeout, $http, $interval,$location) {
         console.log("AppCtrl working");
         /*$scope.tabs = [
             { title:'Tab 1', content:'Dynamic content 1' },
