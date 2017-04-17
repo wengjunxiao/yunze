@@ -68,5 +68,8 @@ p {
 }
 
 .introduce{
+  margin-top: 40px;
+  padding: 30px;
+  width: 500px;
   border: 2px solid #a45054;
 }
