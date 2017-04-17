@@ -72,3 +72,10 @@ p {
   margin-top: 40px;
   width: 700px;
 }
+
+.culture_word {
+  float: left; 
+  background: #C0C0C0; 
+  width: 100px;
+  height: 400px;
+}
