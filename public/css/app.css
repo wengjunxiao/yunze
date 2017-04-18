@@ -69,7 +69,9 @@ p {
 
 .about{
   margin-top: 40px;
+  margin-left: 30px;
   width: 100%;
+  overflow: hidden;
 }
 
 .culture_word {
@@ -90,5 +92,4 @@ p {
 .red_border {
   border: 2px solid #a45054;
   padding:30px;
-  margin: 30px;
 }
