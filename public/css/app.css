@@ -94,10 +94,9 @@ p {
 
 .en_title {
   font-size: 30px;
-  margin-top: 10px
   margin-bottom: 30px;
-   font-family: HelveticaNeueLTPro-33ThinExtened; 
-   color: #AAAAAA;
+  font-family: HelveticaNeueLTPro-33ThinExtened; 
+  color: #AAAAAA;
 }
 
 .row {
