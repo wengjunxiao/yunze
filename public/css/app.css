@@ -68,16 +68,15 @@ p {
 }
 
 .about{
-  float: left;
   margin-top: 40px;
-  width: 700px;
+  width: 100%;
 }
 
 .culture_word {
     text-align: center;
     float: left;
     background: #C0C0C0;
-    width: 140px;
+    width: 20%;
     height: 200px;
     margin: 10px;
 }
