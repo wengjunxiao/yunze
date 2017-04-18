@@ -102,3 +102,35 @@ p {
 .row {
   margin-left: 60px;
 }
+
+.carousel-indicators-cust {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -15%;
+    text-align: right;
+    list-style: none;
+}
+
+.carousel-indicators-cust li {
+    display: inline-table;
+    width: 30px;
+    height: 2px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000\9;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #AAAAAA;
+    /* border-radius: 10px; */
+}
+
+.carousel-indicators-cust .active {
+    width: 30px;
+    height: 2px;
+    margin: 1px;
+    background-color: #AA0000;
+}
