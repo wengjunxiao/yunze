@@ -53,6 +53,11 @@
 
 h2 {
   color:#333;
+  font-family: "MicrosoftYahei";
+}
+
+p {
+ font-family: "MicrosoftYahei"; 
 }
 
 .make_border {
@@ -80,4 +85,10 @@ h2 {
   margin-top:90px;
   color: #FFFFFF;
   font-size: large;
+}
+
+.red_border {
+  border: 2px solid #a45054;
+  padding:30px;
+  margin: 30px;
 }
