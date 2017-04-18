@@ -53,11 +53,11 @@
 
 h2 {
   color:#333;
-  font-family: MicrosoftYahei;
+  font-family:  '\9ED1\4F53';
 }
 
 p {
- font-family: MicrosoftYahei; 
+ font-family: '\5B8B\4F53'; 
 }
 
 .make_border {
@@ -95,7 +95,7 @@ p {
 .en_title {
   font-size: 30px;
   margin-bottom: 30px;
-  font-family: HelveticaNeueLTPro-33ThinExtened; 
+  font-family: '\5FAE\8F6F\96C5\9ED1'; 
   color: #AAAAAA;
 }
 
