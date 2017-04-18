@@ -76,7 +76,7 @@ p {
 .culture_word {
     text-align: center;
     float: left;
-    background: #C0C0C0;
+    background: white;
     width: 20%;
     height: 200px;
     margin: 10px;
@@ -84,7 +84,6 @@ p {
 
 .culture_word p {
   margin-top:90px;
-  color: white;
   font-size: large;
 }
 
