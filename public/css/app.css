@@ -69,7 +69,6 @@ p {
 
 .about{
   margin-top: 40px;
-  margin-left: 30px;
   width: 100%;
   overflow: hidden;
 }
@@ -85,7 +84,7 @@ p {
 
 .culture_word p {
   margin-top:90px;
-  color: #FFFFFF;
+  color: white;
   font-size: large;
 }
 
