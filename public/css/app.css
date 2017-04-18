@@ -117,14 +117,14 @@ p {
 
 .carousel-indicators-cust li {
     display: inline-table;
-    width: 30px;
+    width: 40px;
     height: 2px;
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #C0C0C0;
     background-color: rgba(0,0,0,0);
-    border: 1px solid #AAAAAA;
+    border: 1px solid #C0C0C0;
     /* border-radius: 10px; */
 }
 
