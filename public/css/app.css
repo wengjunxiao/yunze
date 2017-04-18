@@ -129,8 +129,9 @@ p {
 }
 
 .carousel-indicators-cust .active {
-    width: 30px;
+    width: 40px;
     height: 2px;
     margin: 1px;
     background-color: #AA0000;
+    border: 1px solid #AA0000;
 }
