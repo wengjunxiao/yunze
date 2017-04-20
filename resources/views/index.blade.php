@@ -15,7 +15,7 @@
 		<common-header></common-header>
 	</head>
 	<body style="margin-top:50px">
-      <div class="row" style="margin: 0px">
+      <div>
 		<ng-view ></ng-view>
         <common-footer></common-footer>
 		<script data-main="/js/AMD" src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.15/require.min.js"></script>
