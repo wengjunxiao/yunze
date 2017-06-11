@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="baidu-site-verification" content="EqFzcKkh6c" />
-		<meta name="keywords" content="韵泽文化 韵泽 杭州韵泽文化"/>
+		<meta name="keywords" content="杭州韵泽文化 韵泽文化 韵泽"/>
 		<meta name="description" content="杭州韵泽文化创意" />
 		<title>韵泽文化</title>
 
